@@ -22,7 +22,7 @@ source.include_patterns = images/*.png
 #source.exclude_exts = spec
 
 # (list) List of directory to exclude (let empty to not exclude anything)
-#source.exclude_dirs = tests, bin, venv
+source.exclude_dirs = tests, bin, venv
 
 # (list) List of exclusions using pattern matching
 # Do not prefix with './'
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python==3.9.7,kivy==2.0.0,kivymd==1.1.1,kivymatplot==1.0.0,pillow==8.4.0,cryptography==3.4.8,numpy==1.21.2,pyjnius==1.3.0,pysdl2==0.9.7,setuptools==58.2.0
+requirements = python==3.9.7,kivy==2.0.0,kivymd==1.1.1,kivymatplot==1.0.0,pillow==8.4.0,cryptography==3.4.8,numpy==1.21.2,pyjnius==1.3.0,pysdl2==0.9.7
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
